@@ -5,7 +5,7 @@
 }
  
 body {
-    background-color: #d9dcd6;
+    background-color: #bdc5db;
 }
 /* Changed this section to header section*/
 /*below CSS was also organized so it matches up with the structure of the HTML*/
@@ -13,13 +13,21 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    /*background-color: #2a607c;*/
+    background-color: rgb(33, 33, 77);
     color: #ffffff;
 }
  
 header h1{
     display: inline-block;
-    font-size: 48px;
+    font-size: 30px;
+    background-color: rgb(111, 127, 180);
+    height: 35px;
+    /*width: 200px;*/
+    width: 200px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
 }
  
 header nav {
@@ -40,21 +48,40 @@ header nav ul li {
 }
  
 a {
-    color: #ffffff;
+    color: rgb(111, 127, 180);
     text-decoration: none;
 }
  
  
 /* Kept the hero section here with a placeholder for a hero( image is still there)*/
 .hero {
-    height: 800px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: img src="./assets/images/Duomo.jpg";
+
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;*/
+
+    background-image: url("../images/mc-desktop-hero.jpg");
     background-size: cover;
     background-position: center;
 }
  
+
+.hero h2 {
+    
+    position:absolute;
+    right: 20px;
+    top: 230px;
+    /*bottom: 20px;*/
+    text-align: right;
+    background-color: rgb(111, 127, 180);
+    color: rgb(33, 33, 77);
+    text-decoration: none
+}
+
+
 p {
     font-size: 16px;
 }
@@ -98,7 +125,7 @@ p {
 }
 /*in the below benefits section - consolidated some of the CSS so it's not so long*/
  
-.benefits-section {
+/*.benefits-section {
     margin-right: 20px;
     padding: 20px;
     clear: both;
