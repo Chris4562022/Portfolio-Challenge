@@ -25,9 +25,3 @@ Tools Used:
  ----------------------------------
  
  <img width="379" alt="image" src="https://user-images.githubusercontent.com/99276361/159568962-ef4e993d-6810-4c2e-a4b6-eaa3fe6a9436.png">
-<<<<<<< HEAD
-=======
-
- 
- 
->>>>>>> 6e3f30cae3abcc74814c98db3ab88328e26210ca
